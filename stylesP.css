@@ -22,11 +22,6 @@
     
 }
 
-.navbar .navbar-nav .nav-link {
-    color: #FCF9F9;
-}
-
-
 .nav-item {
     color: 080808; 
     padding-left: 155px;
@@ -35,28 +30,34 @@
 
 }
 
-footer {
-    grid-column: 1 / 5;
-    grid-row: 19 / 20; 
-    font-family: Raleway;
-    background-color: #817D7D;
-    text-align: center;
-    padding: 10px;
-    margin-top: 50px;
-    
-}
-.navigation {
-    font-size: 0.9em; 
-    color:#080808;
-    padding-left: 5px;
+.navbar .navbar-nav .nav-link {
+    color: #FCF9F9;
 }
 
-.home,
-.about,
-.projects,
-.contact {
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto; 
+}
+
+
+
+.footer {
+    grid-column: 1 / 5;
+    grid-row: 9 / 10; 
+    text-align: center;
+    background-color: #707070;
+    font-family: Raleway;
+    border: none; 
+    padding-bottom: 20px;
+    margin-top: 100px;
+
+}
+
+.copyright {
+    padding-top: 20px; 
     font-size: 0.75em;
-    text-decoration: underline; 
+    color:#FCF9F9; 
     
     
 }
@@ -69,20 +70,7 @@ footer {
     color: #FCF9F9;
 }
 
-.Contact {
-    font-size: 0.95em;
-    color:#080808;
-    border: none; 
-}
 
-.fas,
-.number,
-.email{
-    font-size: 0.75em;
-    font-weight: 545;
-    
-    
-}
 
 .card {
     margin: 10px;
